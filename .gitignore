@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/codeStyles/
+.idea/dictionaries/
+.idea/inspectionProfiles/
+.idea/sonarlint/
+.idea/vcs.xml
+node_modules/
+package.json
+blog_app/frontend/
+frontend/*.pyc

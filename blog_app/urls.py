@@ -18,5 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^api/', include('blogs.urls'))
+    url(r'^api/', include('blogs.urls')),
+    url('', include('frontend.urls')),
 ]
+# ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

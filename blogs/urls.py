@@ -11,5 +11,5 @@ router.register(r'blogs', views.BlogViewSet)
 
 urlpatterns = [
     url(r'^', include(router.urls)),
-    url(r'auth/', CustomObtainAuthToken.as_view()),
+    url(r'auth/', CustomObtainAuthToken.as_view())
 ]
